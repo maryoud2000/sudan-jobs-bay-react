@@ -1,0 +1,33 @@
+.search-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-bottom: 70px;
+  }
+  
+  .search-container form {
+    display: flex;
+  }
+  
+  .search-container div:first-of-type {
+    width: 50%;
+  }
+  
+  .search-container div:last-of-type > * {
+    margin-left: 10px;
+  }
+  
+  .title-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: aliceblue;
+  }
+  
+  .home-container {
+    padding-top: 20px;
+  }

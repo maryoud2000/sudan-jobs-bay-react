@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
-}
+/* 
+-----
+Fonts
+-----
+/* 
+-------
+globals
+-------
+*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* html {
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
+:root { */
+  /* fonts */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* --ff-logo: "Oleo Script Swash Caps", sans-serif;
+  --ff-heading: "Quicksand", sans-serif;
+  --ff-sub-heading: "Abel", sans-serif;
+  --ff-para: "Nunito Sans", sans-serif; */
+
+  /* colour palette */
+
+  /* --col-white: white;
+  --col-off-white: #faf9f6;
+  --col-black: black;
+  --col-green: green;
+  --col-red: red;
+  --col-vrylght-grey: #f3f6f7;
+  --col-light-grey: #e7ebef;
+  --col-med-grey: #adb5bd;
+  --col-dar-grey: #687178;
+  --col-charcoal-grey: #41474e;
+  --col-med-blue: mediumblue;
+  --col-orange-red: orangered;
+  --col-med-orange: orange;
+  --col-light-seashell: #fff2eb; */
+
+  /* shading */
+
+  /* --light-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.51);
+  --dark-shadow: 22px 22px 15px -10px rgba(0, 0, 0, 0.66);
+  --inset-shadow: 4px 5px 6px -2px rgba(0, 0, 0, 0.75) inset;
+  --top-shadow: -2px -8px 17px -7px rgba(0, 0, 0, 0.4);
+  --text-shadow: 2px 2px 1px rgba(255, 255, 255, 1); */
+
+  /* transitions */
+
+  /* --transition-slow: 1s;
+  --transition-med: 0.75s;
+  --transition-fast: 0.5s;
+  --transition-vfast: 0.25s; */
+/* }
+body {
+  background-color: var(--col-off-white);
+  overflow-y: scroll;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-heading);
+}
+p {
+  font-family: var(--ff-sub-heading);
+}
+input,
+button {
+  font-family: var(--ff-para);
+}
+input {
+  padding: 3px 5px;
+  margin: 8px 0;
+  border: none;
+  font-size: 15px;
+  color: var(--col-charcoal-grey);
+  border-bottom: 1px solid var(--col-med-grey);
+  outline: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.app-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  padding: 30px 30px;
+  background-color: var(--col-white);
+  box-shadow: var(--light-shadow);
+  border-radius: 5px;
+} */

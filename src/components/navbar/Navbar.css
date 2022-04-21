@@ -1,0 +1,76 @@
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    /* pushing left and right items to far edges = justify-content: flex-end;  */
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 5px 0px;
+    position: sticky;
+    overflow: hidden;
+}
+
+.title {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    cursor: pointer;
+    height: 90px;
+    width: 120px;
+}
+
+#jobs-text {
+    color: #b0cf33;
+}
+
+#bay-text {
+    color: #38b6ff;
+}
+
+.nav_links {
+    list-style: none;
+}
+/* aligns side by side rather than up and down  */
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+.nav_links li a:hover {
+    color: #38b6ff;  
+}
+
+/* 
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+} */
+
+
+.listLink{
+    font-size: 16px;
+}
+
+.userName{
+    color: #38b6ff;
+}
+
+#pFile{
+    border-right: 2px solid;
+}
+
+/* #uName{
+    border-left: 2px #1b98e0 solid;
+    margin-left: 1px;
+} */

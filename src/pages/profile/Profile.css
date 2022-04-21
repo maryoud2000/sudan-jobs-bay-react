@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;800&display=swap");
+
+/* .profile-page {
+  max-width: 400px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-form {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid var(--col-med-grey);
+}
+.profile-form > * {
+  width: 100%;
+}
+input,
+.form-submit {
+  width: 100%;
+  margin: 5px;
+}
+.profile-inputs {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.password > * {
+  margin: 0;
+}
+.fas {
+  padding-bottom: 4px;
+  color: slateblue;
+}
+.fas:hover {
+  cursor: pointer;
+}
+*/
+
+/* body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background: #f2f2f2;
+  color: black;
+}
+button {
+  padding: 7px 10px;
+  background-color:  #1b98e0;
+  ;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 10px;
+} 
+.profile-form {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+} */
+
+/* .profile-inputs {
+  background: #f2f2f2;
+  padding: 10px 15px;
+  border: none;
+  width: 100%;
+} */
+
+/* .password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+.profile-inputs {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.updateForm{
+  margin-top: 30px;
+}
+input {
+  width: 100%;
+  margin: 5px;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+} */
+/* .profile-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.profile-form {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+  border-radius: 0.375rem;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.profile-inputs {
+  background: white;
+  padding: 10px 15px;
+  border: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.profile-inputs .password {
+  display: flex;
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+  padding: 10px 15px;
+  border: none;
+}
+
+.password {
+  width: 100%;
+}
+
+.buttonProfile {
+  width: 100%;
+}
+
+.input-profile {
+  margin-bottom: 20px;
+}
+
+.profile-page {
+  text-align: center;
+}
+
+.profile-page h2 {
+  margin-top: 50px;
+}
